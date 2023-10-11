@@ -154,9 +154,10 @@ def process_naive(data, index):
     try:
         json_data = json.loads(data)
 
-        proxy_str = json_data["proxy"]
+        proxy_str =json_data["proxy"]
         #proxy_str = proxy_str.replace("https://", "")
-        naiveproxy = base64.b64encode(proxy_str.encode()).decode()
+        #naiveproxy = base64.b64encode(proxy_str.encode()).decode()
+        naiveproxy = f"naive+{proxy_str}#Naive{index}"
         merged_proxies.append(naiveproxy)
 
 
