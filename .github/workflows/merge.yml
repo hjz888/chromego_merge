@@ -34,5 +34,5 @@ jobs:
           git config --local user.email "2702794@163.com"
           git config --local user.name "hjz888"
           git add .
-          git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
+          git diff --staged --quiet || git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
           git push
