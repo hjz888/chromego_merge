@@ -151,6 +151,7 @@ def process_clash(data, index):
                     ss_meta = f"ss://{ss_source}"
                     merged_proxies.append(ss_meta)
 def process_naive(data, index):
+    try:
         json_data = json.loads(data)
 
         proxy_str =json_data["proxy"]
@@ -158,6 +159,7 @@ def process_naive(data, index):
         #naiveproxy = base64.b64encode(proxy_str.encode()).decode()
         naiveproxy = f"naive+{proxy_str}#Naive{index}"
         merged_proxies.append(naiveproxy)
+
 
     except Exception as e:
         logging.error(f"Error processing naive data for index {index}: {e}")
