@@ -214,14 +214,14 @@ proxies:
 - name: hysteria_0
   type: hysteria
   server: 167.160.91.115
-  port: 13928
-  ports: 13928
-  auth_str: BF0LL4L2jlqSdW3KxjQv81AiFFjj90vWRHeUoqUuTVPeDAGvq3
+  port: 41698
+  ports: 41698
+  auth_str: kZYvm1YxXAQ9ydOJEYOzqiEK34J54WnxhhQUfLlV0yEglpa8uI
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: paypal.com
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -270,7 +270,7 @@ proxies:
 - name: hysteria2_0
   type: hysteria2
   server: 108.181.22.155
-  port: 46728
+  port: 63400
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
