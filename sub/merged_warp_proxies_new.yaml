@@ -53,18 +53,22 @@ proxies:
   dialer-proxy: WARP前置节点
 - name: meta_hysteria2_01
   type: hysteria2
-  server: 108.181.22.205
-  port: 51443
-  password: dongtaiwang.com
+  server: 109.104.152.219
+  port: 59625
+  password: dc881814
   sni: www.bing.com
   skip-cert-verify: true
-- name: meta_hysteria2_11
-  type: hysteria2
-  server: www2.dtku49.xyz
-  port: 54406
-  password: ebcbb37b
-  sni: www.bing.com
-  skip-cert-verify: true
+- name: meta_tuic_11
+  server: tuic3.dtku47.xyz
+  port: 12255
+  type: tuic
+  uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab
+  password: dongtaiwang
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: meta_tuic_21
   server: tuic3.dtku47.xyz
   port: 12255
@@ -323,7 +327,7 @@ proxy-groups:
   proxies:
   - 油管-绵阿羊
   - meta_hysteria2_01
-  - meta_hysteria2_11
+  - meta_tuic_11
   - meta_tuic_21
   - meta_hysteria2_31
   - meta_hysteria_41
@@ -351,7 +355,7 @@ proxy-groups:
   proxies:
   - 油管-绵阿羊
   - meta_hysteria2_01
-  - meta_hysteria2_11
+  - meta_tuic_11
   - meta_tuic_21
   - meta_hysteria2_31
   - meta_hysteria_41
@@ -379,7 +383,7 @@ proxy-groups:
   proxies:
   - 油管-绵阿羊
   - meta_hysteria2_01
-  - meta_hysteria2_11
+  - meta_tuic_11
   - meta_tuic_21
   - meta_hysteria2_31
   - meta_hysteria_41
