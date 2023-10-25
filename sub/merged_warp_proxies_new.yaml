@@ -245,10 +245,10 @@ proxies:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 109.104.152.149
+  port: 48406
+  ports: 48406
+  auth_str: xfNhrunYJ9GvDXCTktY2bIwhc1EyeyyAbiUMx1UtBOWgI4cMVB
   up: 80
   down: 100
   fast-open: true
@@ -271,14 +271,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hysteria2_0
-  type: hysteria2
-  server: 167.160.90.252
-  port: 60930
-  password: fc4488ef
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: hysteria2_1
   type: hysteria2
   server: 108.181.22.155
@@ -303,6 +295,20 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: reality_3
+  type: vless
+  server: 109.104.152.156
+  port: 16717
+  uuid: a2971a3e-d013-47b2-93c8-2ff2a4bcff2a
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aod.itunes.apple.com
+  reality-opts:
+    public-key: ydGuypY0EPIAxMpi8L-yhWBtjyavZbtwo9JJk2K5G0Y
+    short-id: 6ba85179e30d4fc2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -346,10 +352,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hysteria2_0
   - hysteria2_1
   - hysteria2_2
   - hysteria2_3
+  - reality_3
 - name: 手动选择
   type: select
   proxies:
@@ -374,10 +380,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hysteria2_0
   - hysteria2_1
   - hysteria2_2
   - hysteria2_3
+  - reality_3
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -402,10 +408,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hysteria2_0
   - hysteria2_1
   - hysteria2_2
   - hysteria2_3
+  - reality_3
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
