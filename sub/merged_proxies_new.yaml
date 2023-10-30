@@ -275,8 +275,8 @@ proxies:
   - h3
 - name: hysteria2_0
   type: hysteria2
-  server: www.dtku48.xyz
-  port: 7483
+  server: www.dtku46.xyz
+  port: 13579
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -291,8 +291,8 @@ proxies:
   skip-cert-verify: true
 - name: hysteria2_2
   type: hysteria2
-  server: www.dtku46.xyz
-  port: 13579
+  server: www.dtku48.xyz
+  port: 7483
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
