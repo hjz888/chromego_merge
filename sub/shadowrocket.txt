@@ -13,7 +13,7 @@ hysteria://hy2.dtku47.xyz:15566?peer=&auth=jQrGpwSqp34P&insecure=0&upmbps=50&dow
 hysteria://hy1.dtku47.xyz:22334?peer=&auth=lASdKzWK0VxL&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_11
 tuic://45e2b23a-1a49-49c4-9422-8d786887ef3d:51UMpwpdw0Kw@www2.dtku49.xyz:19881?sni=bing.com&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1
 hysteria://www.dtku50.xyz:43250?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=43250&obfs=&protocol=udp&fastopen=1#hysteria_meta_13
-vless://89a3befc-045b-4287-8b9f-f51c455f93be@45.150.165.121:10306?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=ec05-gX8GbyAZaJ72G4AWIadOsDk2_sZCDliuHZnwBc&sid=6ba85179e30d4fc2&sni=mensura.cdn-apple.com&serviceName=&path=&host=#vless_meta_14
+vless://9fb058d9-f8f4-435d-988d-731ee5d087ad@45.145.72.212:443?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=Vlcavce9BuM8Q464JEff4gFUMmDkEFuqYbjjIilbe00&sid=6ba85179e30d4fc2&sni=aod.itunes.apple.com&serviceName=&path=&host=#vless_meta_14
 hysteria://www3.dtku49.xyz:58693?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=58693&obfs=&protocol=udp&fastopen=1#hysteria_meta_15
 naive+https://dongtaiwang.com:dongtaiwang.com@www.dtku48.xyz:443#Naive0
 naive+https://dongtaiwang.com:dongtaiwang.com@naive16.cfcdn3.xyz:443#Naive1
