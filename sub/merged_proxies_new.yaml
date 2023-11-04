@@ -194,29 +194,27 @@ proxies:
 - name: meta_hysteria_131
   type: hysteria
   server: www.dtku50.xyz
-  port: 43250
-  sni: bing.com
+  port: 14751
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
   protocol: udp
-  auth_str: 2S9M5Gs0pgRsaTObNghoLZx6wPkBJOGTFWvf4R06Us5hUNtfr7
+  auth_str: 6qSZyyl4eTT8hqPMQxdhIgpxQfTyW1Oq6GBwQVhA2vBOw7QIGY
   up: 2
   down: 10
-- name: meta_vless_141
-  type: vless
-  server: 45.145.72.212
-  port: 443
-  udp: true
-  uuid: 9fb058d9-f8f4-435d-988d-731ee5d087ad
-  tls: true
-  servername: aod.itunes.apple.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: Vlcavce9BuM8Q464JEff4gFUMmDkEFuqYbjjIilbe00
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
+- name: meta_hysteria_141
+  type: hysteria
+  server: 62.204.54.81
+  port: 37899
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: OdHFS3zC3HlSYJmc0GLQNKLAlwDbJqEmonVBXmI07T0Ojb1bQB
+  up: 10
+  down: 50
 - name: meta_hysteria_151
   type: hysteria
   server: www3.dtku49.xyz
@@ -353,7 +351,7 @@ proxy-groups:
   - meta_hysteria_111
   - meta_tuic_121
   - meta_hysteria_131
-  - meta_vless_141
+  - meta_hysteria_141
   - meta_hysteria_151
   - hysteria_0
   - hysteria_1
@@ -386,7 +384,7 @@ proxy-groups:
   - meta_hysteria_111
   - meta_tuic_121
   - meta_hysteria_131
-  - meta_vless_141
+  - meta_hysteria_141
   - meta_hysteria_151
   - hysteria_0
   - hysteria_1
