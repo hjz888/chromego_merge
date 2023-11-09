@@ -196,18 +196,19 @@ proxies:
   protocol: udp
   up: 50 Mbps
   down: 100 Mbps
-- name: meta_hysteria_121
-  type: hysteria
-  server: www2.dtku49.xyz
-  port: 37363
-  sni: www.microsoft.com
-  skip-cert-verify: true
+- name: meta_tuic_121
+  server: 108.181.22.239
+  port: 19988
+  type: tuic
+  uuid: 485ce799-da5f-46e8-a82b-8ef322d8602f
+  password: dongtaiwang.com
+  sni: bing.com
   alpn:
   - h3
-  protocol: udp
-  auth_str: n8Paxd1Uad5wisPoT6i43lrerK1O5iQRfHnbI3RRsIrbdkyLZP
-  up: 11
-  down: 55
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: meta_hysteria_131
   type: hysteria
   server: www.dtku50.xyz
@@ -319,7 +320,7 @@ proxies:
 - name: hysteria2_2
   type: hysteria2
   server: www.dtku48.xyz
-  port: 9907
+  port: 12107
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -368,7 +369,7 @@ proxy-groups:
   - meta_hysteria_91
   - meta_hysteria_101
   - meta_hysteria_111
-  - meta_hysteria_121
+  - meta_tuic_121
   - meta_hysteria_131
   - meta_hysteria_141
   - meta_hysteria_151
@@ -397,7 +398,7 @@ proxy-groups:
   - meta_hysteria_91
   - meta_hysteria_101
   - meta_hysteria_111
-  - meta_hysteria_121
+  - meta_tuic_121
   - meta_hysteria_131
   - meta_hysteria_141
   - meta_hysteria_151
@@ -426,7 +427,7 @@ proxy-groups:
   - meta_hysteria_91
   - meta_hysteria_101
   - meta_hysteria_111
-  - meta_hysteria_121
+  - meta_tuic_121
   - meta_hysteria_131
   - meta_hysteria_141
   - meta_hysteria_151
