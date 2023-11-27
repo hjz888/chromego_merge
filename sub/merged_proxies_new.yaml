@@ -213,18 +213,19 @@ proxies:
   auth_str: OdHFS3zC3HlSYJmc0GLQNKLAlwDbJqEmonVBXmI07T0Ojb1bQB
   up: 5
   down: 10
-- name: meta_hysteria_151
-  type: hysteria
-  server: www3.dtku49.xyz
-  port: 58693
+- name: meta_tuic_151
+  server: 108.181.22.239
+  port: 19988
+  type: tuic
+  uuid: 485ce799-da5f-46e8-a82b-8ef322d8602f
+  password: dongtaiwang.com
   sni: bing.com
-  skip-cert-verify: true
   alpn:
   - h3
-  protocol: udp
-  auth_str: nbdyVMqucpFMmyRiwcRQFI7EeKzJWjPYuks3ZzEhCv6HjeZvbh
-  up: 11
-  down: 55
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: hysteria_0
   type: hysteria
   server: 109.104.152.180
@@ -297,14 +298,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: hysteria2_2
-  type: hysteria2
-  server: www.dtku48.xyz
-  port: 37151
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: hysteria2_3
   type: hysteria2
   server: 108.181.22.155
@@ -336,14 +329,13 @@ proxy-groups:
   - meta_tuic_121
   - meta_hysteria_131
   - meta_hysteria_141
-  - meta_hysteria_151
+  - meta_tuic_151
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
   - hysteria2_0
   - hysteria2_1
-  - hysteria2_2
   - hysteria2_3
 - name: 自动选择
   type: url-test
@@ -368,14 +360,13 @@ proxy-groups:
   - meta_tuic_121
   - meta_hysteria_131
   - meta_hysteria_141
-  - meta_hysteria_151
+  - meta_tuic_151
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
   - hysteria2_0
   - hysteria2_1
-  - hysteria2_2
   - hysteria2_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
