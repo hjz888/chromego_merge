@@ -4,7 +4,7 @@ hysteria://108.181.22.213:52284?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&
 hysteria://108.181.22.155:19721?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=19721&obfs=&protocol=udp&fastopen=1#hysteria_meta_2
 hysteria://104.234.70.41:57153?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=57153&obfs=&protocol=udp&fastopen=1#hysteria_meta_3
 hysteria://www.dtku46.xyz:11223?peer=&auth=mqoE9qSoyMFa&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=11223&obfs=&protocol=udp&fastopen=1#hysteria_meta_4
-hysteria://104.234.70.6:16117?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=16117&obfs=&protocol=udp&fastopen=1#hysteria_meta_5
+hysteria://104.234.70.6:11330?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=11330&obfs=&protocol=udp&fastopen=1#hysteria_meta_5
 hysteria://hy2.dtku47.xyz:15566?peer=&auth=jQrGpwSqp34P&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=15566&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://clash1.dtku47.xyz:11223?peer=&auth=O5tQQiW2xKf5&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=11223&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria://hy2.dtku47.xyz:15566?peer=&auth=jQrGpwSqp34P&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=15566&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
