@@ -113,8 +113,8 @@ proxies:
   down: 100 Mbps
 - name: meta_hysteria_61
   type: hysteria
-  server: 64.110.25.10
-  port: 44556
+  server: www4.dtku49.xyz
+  port: 22334
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -174,14 +174,14 @@ proxies:
 - name: hysteria_1
   type: hysteria
   server: 173.234.25.52
-  port: 20164
-  ports: 20164
-  auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F
+  port: 30072
+  ports: 30072
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
