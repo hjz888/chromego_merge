@@ -11,7 +11,7 @@ hysteria://hy1.dtku47.xyz:22334?peer=&auth=lASdKzWK0VxL&insecure=0&upmbps=50&dow
 hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_12
 hysteria://www.dtku50.xyz:32408?peer=www.amazon.cn&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=32408&obfs=&protocol=udp&fastopen=1#hysteria_meta_13
 hysteria://64.110.25.10:44556?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=44556&obfs=&protocol=udp&fastopen=1#hysteria_meta_14
-hysteria://62.204.54.81:44550?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=44550&obfs=&protocol=udp&fastopen=1#hysteria_meta_15
+hysteria://62.204.54.81:62946?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=62946&obfs=&protocol=udp&fastopen=1#hysteria_meta_15
 naive+https://dongtaiwang.com:dongtaiwang.com@naive14.cfcdn3.xyz:443#Naive0
 naive+https://dongtaiwang.com:dongtaiwang.com@www.dtku50.xyz:443#Naive1
 hysteria://167.160.91.115:41189?peer=www.amazon.cn&auth=bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_0
