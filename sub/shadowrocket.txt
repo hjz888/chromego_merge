@@ -11,9 +11,9 @@ hysteria://hy2.dtku47.xyz:15566?peer=&auth=jQrGpwSqp34P&insecure=0&upmbps=50&dow
 hysteria://hy1.dtku47.xyz:22334?peer=&auth=lASdKzWK0VxL&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_11
 hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_12
 hysteria://www.dtku50.xyz:32408?peer=www.amazon.cn&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=32408&obfs=&protocol=udp&fastopen=1#hysteria_meta_13
-hysteria2://d64df453-34f0-4fa8-b115-e6805f6d54db@51.158.54.46:23400?insecure=1&sni=&obfs=salamander&obfs-password=d64df453-34f0-4fa8-b115-e6805f6d54db#hysteria2_meta_14
+hysteria2://dongtaiwang.com@51.158.54.46:44550?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_14
 hysteria2://d017e316-82cb-441c-8eea-7b5e9de64a20@45.150.165.84:33440?insecure=1&sni=&obfs=salamander&obfs-password=d017e316-82cb-441c-8eea-7b5e9de64a20#hysteria2_meta_15
-naive+https://dongtaiwang.com:dongtaiwang.com@naive14.cfcdn3.xyz:443#Naive0
+naive+https://dongtaiwang.com:dongtaiwang.com@naive19.cfcdn3.xyz:443#Naive0
 naive+https://dongtaiwang.com:dongtaiwang.com@www.dtku50.xyz:443#Naive1
 hysteria://51.158.54.46:55396?peer=youku.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_0
 hysteria://173.234.25.52:30072?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_1
