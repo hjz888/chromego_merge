@@ -203,6 +203,20 @@ proxies:
   reality-opts:
     public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
     short-id: 6ba85179e30d4fc2
+- name: reality_3
+  type: vless
+  server: 108.181.22.213
+  port: 28945
+  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: m.media-amazon.com
+  reality-opts:
+    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    short-id: 6ba85179e30d4fc2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -225,6 +239,7 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - reality_1
+  - reality_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -247,6 +262,7 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - reality_1
+  - reality_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
