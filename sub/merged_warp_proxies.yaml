@@ -182,9 +182,9 @@ proxies:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 108.181.22.239
-  port: 39967
-  ports: 39967
+  server: www.dtku40.xyz
+  port: 18490
+  ports: 18490
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -208,20 +208,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: reality_1
-  type: vless
-  server: 108.181.22.213
-  port: 28945
-  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: m.media-amazon.com
-  reality-opts:
-    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
-    short-id: 6ba85179e30d4fc2
 - name: reality_2
   type: vless
   server: 62.210.101.0
@@ -287,7 +273,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_1
   - reality_2
   - reality_3
 - name: 手动选择
@@ -308,7 +293,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_1
   - reality_2
   - reality_3
 - name: 负载均衡
@@ -329,7 +313,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_1
   - reality_2
   - reality_3
   url: http://www.gstatic.com/generate_204
