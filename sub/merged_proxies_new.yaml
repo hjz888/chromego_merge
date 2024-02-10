@@ -33,12 +33,63 @@ proxies:
   udp: true
   sni: gw.alicdn.com
   skip-cert-verify: true
-- name: meta_tuic_01
+- name: meta_vmess_01
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: www.darkroom.lol
+- name: meta_vmess_02
+  type: vmess
+  server: 172.67.221.183
+  port: 8080
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: www.blueberrywindow.online
+- name: meta_ss_03
+  type: ss
+  server: fast_2ray_telchannelll.fast2rayy.eu.org
+  port: 443
+  password: Bog0ELmMM9DSxDdQ
+  cipher: chacha20-ietf-poly1305
+- name: meta_vmess_04
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: server26.beheshtbaneh.com
+- name: meta_tuic_05
   type: tuic
-  server: 109.104.152.156
-  port: 22334
+  server: 64.31.55.216
+  port: 56789
   udp: true
-  uuid: a8b711e8-b89a-4aff-9ca1-10be9292a502
+  uuid: 9a661a16-675c-4451-ba20-cde666de44ae
   password: dongtaiwang.com
   alpn:
   - h3
@@ -46,6 +97,12 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: meta_ss_06
+  type: ss
+  server: jseyu.arvancode.eu.org
+  port: 443
+  password: Bog0ELmMM9DSxDdQ
+  cipher: chacha20-ietf-poly1305
 - name: meta_vmess_11
   type: vmess
   server: www.darkroom.lol
@@ -2206,7 +2263,12 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 油管-绵阿羊
-  - meta_tuic_01
+  - meta_vmess_01
+  - meta_vmess_02
+  - meta_ss_03
+  - meta_vmess_04
+  - meta_tuic_05
+  - meta_ss_06
   - meta_vmess_11
   - meta_vmess_12
   - meta_ss_13
@@ -2403,7 +2465,12 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 油管-绵阿羊
-  - meta_tuic_01
+  - meta_vmess_01
+  - meta_vmess_02
+  - meta_ss_03
+  - meta_vmess_04
+  - meta_tuic_05
+  - meta_ss_06
   - meta_vmess_11
   - meta_vmess_12
   - meta_ss_13
