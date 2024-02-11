@@ -1,4 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkb25ndGFpd2FuZy5jb21AbGczLmR0a3U0MS54eXo6NDQ2NzI=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkb25ndGFpd2FuZy5jb21AMTA5LjEwNC4xNTIuMTQ0OjExMQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNGI4MWVkYi03M2E1LTQxZmEtOTA4Ni02ZjQ0NjA2MTgxNWRAZm9zaGFuLmNoaWd1YXl1bi5zaG9wOjI3MTAz
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZjM1YmM4Ni1kMjI2LTRkZDAtOGY0Yy03MDhmMjMwNzdkMjRAeWQucWlhbmdnZXdhbmdsdW8uYnV6ejoxMDgwOQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZjM1YmM4Ni1kMjI2LTRkZDAtOGY0Yy03MDhmMjMwNzdkMjRAeWQucWlhbmdnZXdhbmdsdW8uYnV6ejoxMDgxMw==
@@ -9,6 +9,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZjM1YmM4Ni1kMjI2LTRkZDAtOGY0Yy03MDhmMjMwNzd
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNGI4MWVkYi03M2E1LTQxZmEtOTA4Ni02ZjQ0NjA2MTgxNWRAaGVmZWkuY2hpZ3VheXVuLnNob3A6MjcxMDU=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTdlMGM5OC0xMzZkLTQ3MmMtOTI3Yi1iNTZiY2JhNzIyZTNAdXlkeWZrZ2hqcnRjc2R4LnlvdWNhbnNlZS5jeW91OjIwMTY3
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MzJmZTAyZi1iNjQ5LTRiZGMtOTFkOC1mOTFhZTg3MDAyZjdAemhlamlhbmcuNTJ2cG4udG9wOjMyMTQz
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkb25ndGFpd2FuZy5jb21Ad3d3LmR0a3U0MC54eXo6MjIyMjI=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkb25ndGFpd2FuZy5jb21AMTA5LjEwNC4xNTIuMTQ0OjExMQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkb25ndGFpd2FuZy5jb21AMTA5LjEwNC4xNTIuMTQ0OjExMQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkb25ndGFpd2FuZy5jb21AMTA5LjEwNC4xNTIuMTQ0OjExMQ==
@@ -158,7 +159,7 @@ hysteria://hy1.dtku47.xyz:22334?peer=&auth=lASdKzWK0VxL&insecure=0&upmbps=50&dow
 hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_12
 hysteria://www.dtku50.xyz:18470?peer=www.amazon.cn&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=18470&obfs=&protocol=udp&fastopen=1#hysteria_meta_13
 hysteria2://dongtaiwang.com@51.158.54.46:44550?insecure=1&sni=bing.com&obfs=&obfs-password=#hysteria2_meta_14
-hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#hysteria_meta_15
+hysteria2://d017e316-82cb-441c-8eea-7b5e9de64a20@45.150.165.84:8881?insecure=1&sni=&obfs=salamander&obfs-password=d017e316-82cb-441c-8eea-7b5e9de64a20#hysteria2_meta_15
 naive+https://dongtaiwang.com:dongtaiwang.com@naive19.cfcdn3.xyz:443#Naive0
 naive+https://dongtaiwang.com:dongtaiwang.com@www.dtku50.xyz:443#Naive1
 hysteria://51.158.54.46:55396?peer=youku.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_0
