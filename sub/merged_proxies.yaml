@@ -189,6 +189,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: reality_1
+  type: vless
+  server: 51.159.77.153
+  port: 11111
+  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: m.media-amazon.com
+  reality-opts:
+    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    short-id: 6ba85179e30d4fc2
 - name: reality_2
   type: vless
   server: 62.210.101.0
@@ -238,6 +252,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - reality_1
   - reality_2
   - reality_3
 - name: 自动选择
@@ -261,6 +276,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - reality_1
   - reality_2
   - reality_3
 rules:
