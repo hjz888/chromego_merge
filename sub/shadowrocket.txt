@@ -1,3 +1,4 @@
+tuic://1a0a455e-4207-44be-b5a0-062747671570:dongtaiwang.com@64.31.55.18:11223?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0
 hysteria://hy2.dtku47.xyz:15566?peer=&auth=jQrGpwSqp34P&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=15566&obfs=&protocol=udp&fastopen=1#hysteria_meta_6
 hysteria://clash1.dtku47.xyz:11223?peer=&auth=O5tQQiW2xKf5&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=11223&obfs=&protocol=udp&fastopen=1#hysteria_meta_7
 hysteria://hy2.dtku47.xyz:15566?peer=&auth=jQrGpwSqp34P&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=15566&obfs=&protocol=udp&fastopen=1#hysteria_meta_8
