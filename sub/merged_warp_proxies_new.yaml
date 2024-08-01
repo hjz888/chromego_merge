@@ -53,7 +53,7 @@ proxies:
   dialer-proxy: WARP前置节点
 - name: hysteria_0
   type: hysteria
-  server: 166.1.221.169
+  server: 91.149.239.23
   port: 11223
   ports: 11223
   auth_str: dongtaiwang.com
