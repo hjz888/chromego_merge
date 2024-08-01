@@ -1,10 +1,10 @@
 naive+https://dongtaiwang.com:dongtaiwang.com@naive20.cfcdn3.xyz:443#Naive0
 naive+https://dongtaiwang.com:dongtaiwang.com@naive20.cfcdn3.xyz:443#Naive1
-hysteria://173.234.31.102:10221?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_0
+hysteria://104.166.125.163:11001?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_0
 hysteria://104.166.125.163:11001?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_1
 hysteria://104.166.125.163:11001?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_2
 hysteria://104.166.125.163:11001?peer=bing.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=dongtaiwang.com&protocol=udp&fastopen=1#hysteria_3
 hysteria2://dongtaiwang.com@207.90.239.157:15669,30000-40000?insecure=1&sni=www.bing.com#hysteria2_0
-hysteria2://dongtaiwang.com@62.210.101.0:25302,30000-40000?insecure=1&sni=www.bing.com#hysteria2_1
+hysteria2://dongtaiwang.com@207.90.239.157:15669,30000-40000?insecure=1&sni=www.bing.com#hysteria2_1
 hysteria2://dongtaiwang.com@207.90.239.157:15669,30000-40000?insecure=1&sni=www.bing.com#hysteria2_2
 hysteria2://dongtaiwang.com@207.90.239.157:15669,30000-40000?insecure=1&sni=www.bing.com#hysteria2_3
