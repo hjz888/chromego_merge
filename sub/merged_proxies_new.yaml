@@ -35,9 +35,9 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
