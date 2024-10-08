@@ -36,8 +36,8 @@ proxies:
 - name: hysteria_0
   type: hysteria
   server: 166.1.221.169
-  port: 11223
-  ports: 11223
+  port: 55555
+  ports: 55555
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -50,8 +50,8 @@ proxies:
 - name: hysteria_1
   type: hysteria
   server: 166.1.221.169
-  port: 11223
-  ports: 11223
+  port: 55555
+  ports: 55555
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -64,8 +64,8 @@ proxies:
 - name: hysteria_2
   type: hysteria
   server: 166.1.221.169
-  port: 11223
-  ports: 11223
+  port: 55555
+  ports: 55555
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -78,8 +78,8 @@ proxies:
 - name: hysteria_3
   type: hysteria
   server: 166.1.221.169
-  port: 11223
-  ports: 11223
+  port: 55555
+  ports: 55555
   auth_str: dongtaiwang.com
   up: 80
   down: 100
