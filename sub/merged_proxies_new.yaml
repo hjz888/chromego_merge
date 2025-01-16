@@ -35,8 +35,8 @@ proxies:
   skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
-  server: 46.17.43.223
-  port: 64907
+  server: 185.22.155.71
+  port: 15424
   ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
@@ -49,9 +49,9 @@ proxies:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 46.17.43.223
-  port: 12345
-  ports: 12345
+  server: 185.22.155.71
+  port: 15424
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -63,9 +63,9 @@ proxies:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 46.17.43.223
-  port: 12345
-  ports: 12345
+  server: 185.22.155.71
+  port: 15424
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -77,9 +77,9 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 46.17.43.223
-  port: 12345
-  ports: 12345
+  server: 185.22.155.71
+  port: 15424
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
