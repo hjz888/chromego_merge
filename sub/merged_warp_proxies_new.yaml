@@ -54,8 +54,8 @@ proxies:
 - name: hysteria_0
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -68,8 +68,8 @@ proxies:
 - name: hysteria_1
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -82,8 +82,8 @@ proxies:
 - name: hysteria_2
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -96,8 +96,8 @@ proxies:
 - name: hysteria_3
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth_str: dongtaiwang.com
   up: 80
   down: 100
