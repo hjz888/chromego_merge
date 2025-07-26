@@ -53,9 +53,9 @@ proxies:
   dialer-proxy: WARP前置节点
 - name: hysteria_0
   type: hysteria
-  server: 172.245.235.201
-  port: 38814
-  ports: 38814
+  server: 109.104.153.91
+  port: 37519
+  ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -67,9 +67,9 @@ proxies:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 172.245.235.201
-  port: 38814
-  ports: 38814
+  server: 109.104.153.91
+  port: 37519
+  ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -81,9 +81,9 @@ proxies:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 172.245.235.201
-  port: 38814
-  ports: 38814
+  server: 109.104.153.91
+  port: 37519
+  ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -95,9 +95,9 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 172.245.235.201
-  port: 38814
-  ports: 38814
+  server: 109.104.153.91
+  port: 37519
+  ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -107,6 +107,38 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: hysteria2_0
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
+- name: hysteria2_1
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
+- name: hysteria2_2
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
+- name: hysteria2_3
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
 - name: reality_0
   type: vless
   server: 1.162.51.106
@@ -190,6 +222,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - hysteria2_0
+  - hysteria2_1
+  - hysteria2_2
+  - hysteria2_3
   - reality_0
   - reality_1
   - reality_2
@@ -202,6 +238,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - hysteria2_0
+  - hysteria2_1
+  - hysteria2_2
+  - hysteria2_3
   - reality_0
   - reality_1
   - reality_2
@@ -214,6 +254,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - hysteria2_0
+  - hysteria2_1
+  - hysteria2_2
+  - hysteria2_3
   - reality_0
   - reality_1
   - reality_2
