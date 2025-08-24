@@ -123,35 +123,7 @@ proxies:
   skip-cert-verify: true
 - name: reality_0
   type: vless
-  server: 2001:bc8:32d7:302::11
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
-- name: reality_1
-  type: vless
-  server: 2001:bc8:32d7:302::11
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
-- name: reality_2
-  type: vless
-  server: 2001:bc8:32d7:302::11
+  server: 2001:bc8:32d7:302::13
   port: 34324
   uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
   network: tcp
@@ -165,7 +137,7 @@ proxies:
     short-id: ''
 - name: reality_3
   type: vless
-  server: 2001:bc8:32d7:302::11
+  server: 2001:bc8:32d7:302::13
   port: 34324
   uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
   network: tcp
@@ -193,8 +165,6 @@ proxy-groups:
   - hysteria2_2
   - hysteria2_3
   - reality_0
-  - reality_1
-  - reality_2
   - reality_3
 - name: 自动选择
   type: url-test
@@ -212,8 +182,6 @@ proxy-groups:
   - hysteria2_2
   - hysteria2_3
   - reality_0
-  - reality_1
-  - reality_2
   - reality_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
