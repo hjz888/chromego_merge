@@ -1,5 +1,5 @@
-naive+https://dongtaiwang.com:dongtaiwang.com@naive23.cfcdn3.xyz:443#Naive0
-naive+https://dongtaiwang.com:dongtaiwang.com@naive24.cfcdn3.xyz:443#Naive1
+naive+https://dongtaiwang.com:dongtaiwang.com@naive2.541824.xyz:11200#Naive0
+naive+https://dongtaiwang.com:dongtaiwang.com@naive2.541824.xyz:11200#Naive1
 hysteria://109.104.153.91:37519,10000-20000?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_0
 hysteria://109.104.153.91:37519,10000-20000?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_1
 hysteria://109.104.153.91:37519,10000-20000?peer=apple.com&auth=dongtaiwang.com&insecure=1&upmbps=11&downmbps=55&alpn=h3&obfs=&protocol=udp&fastopen=1#hysteria_2
