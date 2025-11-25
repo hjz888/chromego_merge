@@ -33,11 +33,11 @@ proxies:
   udp: true
   sni: gw.alicdn.com
   skip-cert-verify: true
-- name: meta_hysteria2_01
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
+- name: meta_hysteria_01
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -45,11 +45,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: meta_hysteria2_11
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
+- name: meta_hysteria_11
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -70,11 +70,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_hysteria2_31
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
+- name: meta_hysteria_31
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -95,11 +95,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_hysteria2_51
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
+- name: meta_hysteria_51
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -246,12 +246,12 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 油管-绵阿羊
-  - meta_hysteria2_01
-  - meta_hysteria2_11
+  - meta_hysteria_01
+  - meta_hysteria_11
   - meta_tuic_21
-  - meta_hysteria2_31
+  - meta_hysteria_31
   - meta_tuic_41
-  - meta_hysteria2_51
+  - meta_hysteria_51
   - meta_hysteria_61
   - meta_hysteria_71
   - meta_hysteria_81
@@ -269,12 +269,12 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 油管-绵阿羊
-  - meta_hysteria2_01
-  - meta_hysteria2_11
+  - meta_hysteria_01
+  - meta_hysteria_11
   - meta_tuic_21
-  - meta_hysteria2_31
+  - meta_hysteria_31
   - meta_tuic_41
-  - meta_hysteria2_51
+  - meta_hysteria_51
   - meta_hysteria_61
   - meta_hysteria_71
   - meta_hysteria_81
